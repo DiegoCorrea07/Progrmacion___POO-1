@@ -1,6 +1,13 @@
 public class Propietario {
     String nombre;
     String cedula;
-    String telefono;
-    String direccion;
+
+    public Propietario(String nombre) {
+
+    }
+
+    public Propietario(String nombre, String cedula) {
+        this.nombre = nombre;
+        this.cedula = cedula;
+    }
 }
